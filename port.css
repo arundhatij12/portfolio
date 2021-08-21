@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ok{
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.ht{
+    background-color: rgb(73, 38, 38);
+    color: azure;
+    padding: 1.5rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.ht .title{
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.list{
+    list-style: none;
+}
+
+.ty a:hover{
+   background-color: burlywood;
+}
+
+.bt{
+    color:aliceblue;
+}
+
+.bt a:hover{
+    background-color: cornflowerblue;
+}
+
+.ht .yt{
+    text-align: right;
+}
+
+.ht .ty{
+    color: aliceblue;   display: inline;
+    padding: 0.5rem 0.5rem;
+}
+
+
+.ht .link{
+    color: rgb(112, 62, 62);
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.pic{
+    width: 30%;
+    height: 50%;
+    margin: auto;
+    display: block;
+}
+
+.ln{
+    text-align: center;
+    
+}
+
+.mn{
+    background-color: antiquewhite;
+    padding: 0.1rem;
+    
+}
+
+.pn{
+    background-color:white;
+    padding: 0.5rem; 
+}
+
+.h1 .r{
+    color: black;
+}
+
+.h2 .t{
+font-size: medium;
+color: darkslategray;
+}
+
+.bt{
+    color: black;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    font-weight: 200;
+}
+
+.q {
+    padding: 2rem 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.q .t {
+    font-size: large;
+ color:lavender;
+ display: inline;
+    padding: 0.5rem 0.5rem;
+}
+
+.q .t a:hover{
+    color:yellow;
+}
+
+.q .link{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+footer {
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 40px;
+    padding: 0.2rem;
+  }
+  

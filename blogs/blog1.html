@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog 1</title>
+    <link href="../port.css" rel="stylesheet" />
+    <link href="../port.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="ht">
+      <div class="title">ARUNDHATI JALAJ</div>
+      <ul class="list yt">
+        <li class="ty"><a class="link" href="../portfolio.html"> HOME </a></li>
+        <li class="ty">
+          <a class="link" href="../projects.html"> PROJECTS </a>
+        </li>
+        <li class="ty"><a class="link" href="../blogs.html"> BLOGS </a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Logical operators in Javascript</h2>
+      <p>
+        There are three logical operators in JavaScript: || (OR), && (AND), !
+        (NOT)
+      </p>
+      <p>
+        "OR" operator is denoted by two pipes ( || ) in javascript. If any one
+        of the operands are true then the value is true. Take a look at the
+        below results. 
+        <p>alert( true || true ); // true  </p>
+        <p>alert( false || true ); //true</p>
+        <p>alert( true || false ); // true </p>
+        <p>alert( false || false ); // false</p> 
+        
+        Like you would have noticed the he result is always true except for the
+        case when both operands are false.
+        Now let's say that operands are not necessarily boolean ,then they are converted into boolean.
+        Any non-empty value is true in JS.
+
+      </p>
+
+      <p>
+          "AND" is denoted by &&. 
+          AND returns true if both operands are truthy and false otherwise.
+          Take a look at below examples.
+
+          <p>alert( true && true );   // true</p>
+          <p>alert( false && true );  // false</p>
+          <p>alert( true && false );  // false</p>
+          <p>alert( false && false ); // false</p>
+          Like you would have noticed the result is only true if both the
+          operands are true, else false.
+
+      </p>
+
+      <p>
+          "NOT" is denoted by ! (exclamation mark).
+          The operator accepts a single argument and does the following:
+
+Converts the operand to boolean type: true/false.
+Returns the inverse value.
+
+<p>alert( !true ); // false</p>
+<p>alert( !0 ); // true</p>
+
+      </p>
+    </main>
+
+    <footer class="q">
+      <hr />
+      <h3>Connect with Me.</h3>
+      <ul class="footer-list">
+        <li>
+          <a
+            class="links"
+            href="https://github.com/arundhatij12/"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/dotty/80/000000/github.png"
+              alt="github"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            class="links"
+            href="https://www.linkedin.com/in/arundhati-jalaj-48a64121a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIpd3ZaWhSOCLN0Y6Mv%2FsMg%3D%3D"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/ios/50/000000/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            class="links"
+            href="https://twitter.com/arrrundhati"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/ios/64/000000/twitter.png"
+              alt="twitter"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
